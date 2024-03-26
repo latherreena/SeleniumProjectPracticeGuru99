@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/lathe/IdeaProjects/SeleniumGuru99ProjectPractice">
+        <classes>
+            <class name="TestCase.Day1Day2.TestMethodTestNG">
+                <methods>
+                    <include name="DriverSetUp"/>
+                    <include name="LoginSetUp"/>
+                    <include name="TestAssert"/>
+                    <include name="endSession"/>
+                </methods>
+            </class>
+
+            <class name="TestCase.Day4.InvalidTestMethodTestNG">
+                <methods>
+                    <include name="DriverSetUp"/>
+                    <include name="InvalidUserid"/>
+                    <include name="InvalidPassword"/>
+                    <include name="InvalidUserIDAndInvalidPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
